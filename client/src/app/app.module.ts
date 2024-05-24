@@ -18,12 +18,14 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { MatIconModule } from '@angular/material/icon';
 import {  BaseChartDirective, provideCharts, withDefaultRegisterables } from 'ng2-charts';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
     NotFoundComponent,
     NavbarComponent,
+    FooterComponent,
 
   ],
   imports: [
