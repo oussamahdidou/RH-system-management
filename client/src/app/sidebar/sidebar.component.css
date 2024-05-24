@@ -1,7 +1,7 @@
 aside {
     height: 100%;
     width: 200px;
-    background: #930ebb;
+    background: #343A40;
     border: 0.15px rgba(0, 0, 0, 0.144);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: 0.3s;
@@ -63,13 +63,13 @@ aside {
 }
 
 .nav-items {
-    color: #fff;
+    color: #969BA3;
     font-size: larger;
     cursor: pointer;
     position: relative;
 }
 
 .nav-items:hover {
-    color: #930ebb;
-    background-color: #fff;
+    color: #fff;
+    background-color: #007BFF;
 }
