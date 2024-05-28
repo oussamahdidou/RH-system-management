@@ -1,0 +1,157 @@
+div.filtrage a {
+    text-decoration: none;
+}
+
+
+
+div.logo .row .col-12 {
+    text-transform: uppercase;
+    font-family: 'Istok Web', Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+div.filtrage {
+    background-color: #fff;
+    padding: 20px 0px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: -1px 8px 22px 3px rgba(0, 0, 0, 0.132);
+
+}
+
+div.filtrage1 {
+    background-color: #fff;
+    padding: 45px 10px;
+    border-bottom: 1px solid #b5b5b547;
+
+}
+
+.row .card .card-body span {
+    display: block;
+    font-family: 'Inconsolata', 'Courier New', Courier, monospace !important;
+    font-weight: 400;
+
+}
+
+.row .card .card-body span label {
+    font-weight: 600;
+}
+
+.card {
+    --bs-card-border-width: 0px;
+    padding: 0px !important;
+    background-color: #D9D9D9;
+}
+
+.card-footer a {
+    text-decoration: none;
+    color: #1510FF;
+    font-family: 'Inconsolata', 'Courier New', Courier, monospace !important;
+    font-weight: 400;
+}
+
+.card-footer {
+    background-color: inherit;
+    border: none;
+}
+
+.card .card-header img {
+    border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius);
+}
+
+form label {
+    font-family: 'Inconsolata', 'Courier New', Courier, monospace !important;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+form select,
+.box input {
+    width: 20%;
+    height: 35px;
+    border-radius: 20px;
+}
+
+form select {
+    padding-left: 10px;
+}
+
+.box input {
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+button.button {
+    background-color: #007A95;
+    color: white;
+    border: 0px;
+    padding: 5px;
+    height: 35px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.test {
+    border: 3px solid red;
+}
+
+img.fil {
+    object-fit: cover !important;
+    width: 100%;
+}
+
+h1 {
+    color: #000;
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h4 {
+    color: #000000;
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+h2 {
+    position: relative;
+    display: block;
+    font-family: Jost, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    line-height: 1.2em;
+    color: #202124;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+
+
+span.istok {
+    text-transform: uppercase;
+    font-family: 'Inconsolata', 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+
+
+.filtrage1 .col-6 {
+    text-align: left;
+}
+
+.filtrage1 .col-6 p {
+    font-size: 30px;
+    line-height: 1.3em;
+    color: #000;
+    font-family: Jost, Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
