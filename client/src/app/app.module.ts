@@ -19,6 +19,8 @@ import { MatIconModule } from '@angular/material/icon';
 import {  BaseChartDirective, provideCharts, withDefaultRegisterables } from 'ng2-charts';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { NavbarhomeComponent } from './navbarhome/navbarhome.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,6 +28,8 @@ import { FooterComponent } from './footer/footer.component';
     NotFoundComponent,
     NavbarComponent,
     FooterComponent,
+    HomeComponent,
+    NavbarhomeComponent,
 
   ],
   imports: [
