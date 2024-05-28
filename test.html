@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="admenu" class="navbar navbar-expand-sm">
+        <div class="container">
+            <a class="navbar-brand" href=""><img class="img-fluid" width="60" height="54"
+                    src="" alt=""></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0 ">
+                        <li class="ms-2 nav-item me-4">
+                            <a class="nav-link" data-widget="pushmenu" href="">Dashboard</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" data-widget="pushmenu" href="/home#categorie">Categorie</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" data-widget="pushmenu" href="">Contact</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" data-widget="pushmenu" href="">À propos</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" data-widget="pushmenu" href="">Categorie</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" data-widget="pushmenu" href="">Contact</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" data-widget="pushmenu" href="">À propos</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto ul1">
+    
+    
+                            <li class="nav-item">
+                                <a href="" class="nav-link log">Log in/Registre</a>
+                            </li>
+                            <!-- Authentication Links -->
+                           <li class="nav-item dropdown ml-1 ml-md-3">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"><img
+                                    src="image/img.png" alt="Avatar" class="rounded-circle"
+                                    width="40"></a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="">
+                                    <i class="material-icons">person</i> Profile
+                                </a>
+                                <form action="" method="post">
+                                    <input type="hidden" name="" value="">
+                                    <button class="dropdown-item">
+                                        <i class="material-icons">lock</i> Logout
+                                    </button>
+                                </form>
+                            </div>
+                        </li> 
+                        <li>
+                            <div class="form-group">
+                                <button class="my-button rounded-circle" style=" background-image: url('data:image/png');">
+                                </button>
+                            </div>
+                            <ul class="list-unstyled" >
+                                  <li class="nav-item ">
+                                      <a class="nav-link"
+                                          href="">
+                                          <i class="fa-fw fas fa-key nav-icon">
+                                          </i>
+                                              Profile
+                                      </a>
+                                  </li>
+                          <li class="nav-item">
+                              <a href="#" class="nav-link"
+                                  onclick="event.preventDefault(); document.getElementById('logoutform').submit();">
+                                 
+                                      <i class="fas fa-fw fa-sign-out-alt nav-icon">
+                                      </i>
+                                      logout
+                                  
+                              </a>
+                          </li>
+                            </ul>
+                        </li>
+                        </ul>
+                </div>
+            </div>
+        </nav>
+
+    
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('.ul1 ul').slideUp();
+            $('.ul1 li').click(function() {
+                $(this).children('ul').slideToggle("speed");
+            });
+        });
+    </script>
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+        var adheader = document.getElementById("admenu"),
+            sticky = adheader.offsetTop;
+
+        function myFunction() {
+            window.pageYOffset > sticky ? adheader.classList.add("sticky") : adheader.classList.remove("sticky")
+        }
+    </script>
